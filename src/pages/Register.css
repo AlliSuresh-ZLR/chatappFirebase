@@ -1,0 +1,17 @@
+form{
+    height: 450px;
+    width: 300px;
+    margin-top: 10%;
+    background-color: rgb(136, 228, 228);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+form:hover
+{
+    box-shadow: 5px 10px gray;
+    transform: scale(1.05);
+    transition: 0.7s ease-in all;
+}
